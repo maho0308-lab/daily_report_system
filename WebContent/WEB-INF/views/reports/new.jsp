@@ -3,7 +3,8 @@
 <c:import url="/WEB-INF/views/layout/app.jsp">
     <c:param name="content">
         <h2>日報 新規登録ページ</h2>
-
+		<link rel="stylesheet" href="<c:url value='/css/reset.css' />">
+        <link rel="stylesheet" href="<c:url value='/css/style.css' />">
         <form method="POST" action="<c:url value='/reports/create' />">
             <c:import url="_form.jsp" />
         </form>

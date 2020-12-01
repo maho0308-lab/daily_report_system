@@ -6,7 +6,8 @@
         <c:choose>
             <c:when test="${report != null}">
                 <h2>日報 詳細ページ</h2>
-
+				<link rel="stylesheet" href="<c:url value='/css/reset.css' />">
+      		    <link rel="stylesheet" href="<c:url value='/css/style.css' />">
                 <table>
                     <tbody>
                         <tr>

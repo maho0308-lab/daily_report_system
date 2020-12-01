@@ -9,6 +9,8 @@
             </div>
         </c:if>
         <h2>日報　一覧</h2>
+        <link rel="stylesheet" href="<c:url value='/css/reset.css' />">
+        <link rel="stylesheet" href="<c:url value='/css/style.css' />">
         <table id="report_list">
             <tbody>
                 <tr>
