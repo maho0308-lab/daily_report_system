@@ -6,8 +6,6 @@
         <c:choose>
             <c:when test="${employee != null}">
                 <h2>id : ${employee.id} の従業員情報　詳細ページ</h2>
-				<link rel="stylesheet" href="<c:url value='/css/reset.css' />">
-       		    <link rel="stylesheet" href="<c:url value='/css/style.css' />">
                 <table>
                     <tbody>
                         <tr>

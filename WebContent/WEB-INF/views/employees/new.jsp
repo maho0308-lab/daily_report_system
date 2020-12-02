@@ -3,8 +3,6 @@
 <c:import url="../layout/app.jsp">
     <c:param name="content">
         <h2>従業員 新規登録ページ</h2>
-		<link rel="stylesheet" href="<c:url value='/css/reset.css' />">
-        <link rel="stylesheet" href="<c:url value='/css/style.css' />">
         <form method="POST" action="<c:url value='/employees/create' />">
             <c:import url="_form.jsp" />
         </form>

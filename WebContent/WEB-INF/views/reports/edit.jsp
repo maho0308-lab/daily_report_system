@@ -5,8 +5,6 @@
         <c:choose>
             <c:when test="${report != null}">
                 <h2>日報　編集ページ</h2>
-                <link rel="stylesheet" href="<c:url value='/css/reset.css' />">
-       		    <link rel="stylesheet" href="<c:url value='/css/style.css' />">
                 <form method="POST" action="<c:url value='/reports/update' />">
                     <c:import url="_form.jsp" />
                 </form>
